@@ -9,3 +9,10 @@ Paul Heslin is an Canberra-based producer/composer/whatever. http://pxxlhxslxn.c
 ## Charles Martin
 
 Charles Martin is a Canberra-based percussionist/hacker/researcher. http://charlesmartin.com.au
+
+## Tech Rider
+
+- Output will be from Mackie 1204-VLZ mixer on stage
+- Require 2x XLR input panned left and right
+- and 1x power board (4 outlets)
+- and 1x small table or horizontal surface (red Ainslie arts centre bench would be fine)
