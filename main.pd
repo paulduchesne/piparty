@@ -16,8 +16,8 @@
 #X connect 4 0 5 0;
 #X connect 5 0 3 0;
 #X connect 6 0 7 0;
-#X restore 114 255 pd test;
-#X obj 164 256 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X restore 102 258 pd test;
+#X obj 152 259 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #N canvas 1 93 576 352 delfilt 1;
 #X obj 59 30 inlet~;
@@ -53,12 +53,12 @@
 #X connect 15 0 16 0;
 #X connect 18 0 1 0;
 #X restore 46 114 pd delfilt;
-#X obj 156 115 *~;
-#X text 154 90 mic input;
-#X text 172 152 processing;
-#X obj 158 192 *~;
-#X obj 226 113 *~;
-#X text 233 95 other input;
+#X obj 260 99 *~;
+#X text 258 74 mic input;
+#X text 305 212 processing;
+#X obj 291 252 *~;
+#X obj 330 97 *~;
+#X text 337 79 other input;
 #X obj 47 257 dac~ 1;
 #X connect 0 0 3 0;
 #X connect 0 0 8 0;
