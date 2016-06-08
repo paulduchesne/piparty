@@ -1,4 +1,4 @@
-#N canvas 265 275 450 300 10;
+#N canvas 263 279 450 300 10;
 #X obj 35 50 fx-stutter;
 #X text 135 48 nice stutter effect;
 #X text 129 109 inf reverb/gran?;
