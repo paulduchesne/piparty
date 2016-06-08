@@ -1,3 +1,28 @@
-#N canvas 1 57 898 362 10;
+#N canvas 1 65 898 362 10;
 #X text 55 64 patch for auto switching on sound card \, loading...
 samples? who knows.;
+#X obj 349 158 ctlin 10;
+#X obj 471 157 ctlin 11;
+#X obj 411 157 ctlin 1;
+#X obj 543 154 ctlin 2;
+#X obj 661 116 notein 1;
+#X obj 661 142 pack 0 0;
+#X obj 659 195 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 681 196 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 660 170 route 0 1;
+#X floatatom 362 211 5 0 0 0 - - -, f 5;
+#X floatatom 419 212 5 0 0 0 - - -, f 5;
+#X floatatom 486 217 5 0 0 0 - - -, f 5;
+#X floatatom 543 218 5 0 0 0 - - -, f 5;
+#X text 154 122 test auto connect to midi;
+#X connect 1 0 10 0;
+#X connect 2 0 12 0;
+#X connect 3 0 11 0;
+#X connect 4 0 13 0;
+#X connect 5 0 6 0;
+#X connect 5 1 6 1;
+#X connect 6 0 9 0;
+#X connect 9 0 7 0;
+#X connect 9 1 8 0;
