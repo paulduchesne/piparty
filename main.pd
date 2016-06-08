@@ -1,4 +1,4 @@
-#N canvas 122 110 780 439 10;
+#N canvas 120 114 780 439 10;
 #X obj 46 84 adc~;
 #N canvas 1 93 450 300 test 0;
 #X obj 106 108 inlet;
@@ -29,7 +29,6 @@
 #X obj 46 114 delfilt;
 #X obj 525 81 adc~;
 #X text 567 80 paul/charles in;
-#X obj 525 122 delfilt;
 #X text 588 121 variable delay;
 #X text 605 170 all fxs in here;
 #X obj 525 228 dac~;
@@ -40,6 +39,7 @@
 #X text 385 36 alt structure using pauls supersick mixer routing?;
 #X obj 523 171 affects;
 #X obj 60 359 housekeeping;
+#X obj 525 122 delfilt;
 #X obj 136 115 fx-stutter;
 #X connect 0 0 7 0;
 #X connect 0 0 10 0;
