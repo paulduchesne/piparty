@@ -1,6 +1,6 @@
-#N canvas 235 71 780 439 10;
+#N canvas 233 75 780 439 10;
 #X obj 46 84 adc~;
-#N canvas 1 93 450 300 test 0;
+#N canvas 1 101 450 300 test 0;
 #X obj 106 108 inlet;
 #X obj 198 149 osc~ 440;
 #X obj 197 171 *~ 0.6;
@@ -9,6 +9,13 @@
 #X obj 201 99 *~ 100;
 #X obj 197 191 *~ 0;
 #X obj 97 223 outlet~;
+#X obj 289 60 notein 1;
+#X obj 289 86 pack 0 0;
+#X obj 287 139 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 309 140 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 288 114 route 9 10;
 #X connect 0 0 6 1;
 #X connect 1 0 2 0;
 #X connect 2 0 6 0;
@@ -16,8 +23,14 @@
 #X connect 4 0 5 0;
 #X connect 5 0 3 0;
 #X connect 6 0 7 0;
-#X restore 102 258 pd test;
-#X obj 152 259 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X connect 8 0 9 0;
+#X connect 8 1 9 1;
+#X connect 9 0 12 0;
+#X connect 10 0 6 1;
+#X connect 12 0 10 0;
+#X connect 12 1 11 0;
+#X restore 155 227 pd test;
+#X obj 205 228 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 260 99 *~;
 #X text 258 74 mic input;
@@ -32,7 +45,7 @@
 #X connect 0 0 10 0;
 #X connect 0 0 11 0;
 #X connect 0 1 3 0;
-#X connect 1 0 9 0;
+#X connect 1 0 10 0;
 #X connect 2 0 1 0;
 #X connect 6 0 9 0;
 #X connect 10 0 9 0;
