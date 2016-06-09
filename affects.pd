@@ -1,0 +1,8 @@
+#N canvas 263 279 450 300 10;
+#X obj 35 50 fx-stutter;
+#X text 135 48 nice stutter effect;
+#X text 129 109 inf reverb/gran?;
+#X obj 36 107 fx-freeze;
+#X obj 34 162 fx-mountains;
+#X text 137 162 pauls amazing eq;
+#X text 57 223 this signal path seems to make sense to me?;

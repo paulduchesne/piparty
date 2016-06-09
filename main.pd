@@ -1,4 +1,4 @@
-#N canvas 233 75 780 439 10;
+#N canvas 231 79 780 439 10;
 #X obj 46 84 adc~;
 #N canvas 1 101 450 300 test 0;
 #X obj 106 108 inlet;
@@ -29,9 +29,9 @@
 #X connect 10 0 6 1;
 #X connect 12 0 10 0;
 #X connect 12 1 11 0;
-#X restore 155 227 pd test;
-#X obj 205 228 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
-1;
+#X restore 26 38 pd test;
+#X obj 76 39 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1
+;
 #X obj 260 99 *~;
 #X text 258 74 mic input;
 #X text 305 212 processing;
@@ -40,13 +40,26 @@
 #X text 337 79 other input;
 #X obj 47 257 dac~ 1;
 #X obj 46 114 delfilt;
+#X obj 525 81 adc~;
+#X text 567 80 paul/charles in;
+#X text 588 121 variable delay;
+#X text 605 170 all fxs in here;
+#X obj 525 228 dac~;
+#X text 570 228 outgoing !;
+#X text 528 201 |;
+#X text 531 147 |;
+#X text 531 104 |;
+#X text 385 36 alt structure using pauls supersick mixer routing?;
+#X obj 523 171 affects;
+#X obj 60 359 housekeeping;
+#X obj 525 122 delfilt;
 #X obj 136 115 fx-stutter;
 #X connect 0 0 7 0;
 #X connect 0 0 10 0;
-#X connect 0 0 11 0;
+#X connect 0 0 24 0;
 #X connect 0 1 3 0;
 #X connect 1 0 10 0;
 #X connect 2 0 1 0;
 #X connect 6 0 9 0;
 #X connect 10 0 9 0;
-#X connect 11 0 9 0;
+#X connect 24 0 9 0;

@@ -1,0 +1,3 @@
+#N canvas 1 65 450 300 10;
+#X text 148 97 three band eq goes here;
+#X text 85 145 make it sequencible if possible in vanilla;
