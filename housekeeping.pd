@@ -1,3 +1,4 @@
-#N canvas 1 81 898 362 10;
+#N canvas 1 85 898 362 10;
 #X text 55 64 patch for auto switching on sound card \, loading...
 samples? who knows. maybe we don't need this.;
+#X text 317 152 comment;
