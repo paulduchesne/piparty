@@ -1,4 +1,4 @@
-#N canvas 231 79 780 439 10;
+#N canvas 227 87 780 439 10;
 #X obj 46 84 adc~;
 #N canvas 1 101 450 300 test 0;
 #X obj 106 108 inlet;
@@ -54,6 +54,9 @@
 #X obj 60 359 housekeeping;
 #X obj 525 122 delfilt;
 #X obj 136 115 fx-stutter;
+#X obj 367 300 loadbang;
+#X obj 367 322 delay 100;
+#X msg 367 344 \; pd dsp 1;
 #X connect 0 0 7 0;
 #X connect 0 0 10 0;
 #X connect 0 0 24 0;
@@ -63,3 +66,5 @@
 #X connect 6 0 9 0;
 #X connect 10 0 9 0;
 #X connect 24 0 9 0;
+#X connect 25 0 26 0;
+#X connect 26 0 27 0;
