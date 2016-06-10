@@ -16,3 +16,20 @@ Charles Martin is a Canberra-based percussionist/hacker/researcher. http://charl
 - Require 2x XLR input panned left and right
 - and 1x power board (4 outlets)
 - and 1x small table or horizontal surface (red Ainslie arts centre bench would be fine)
+
+## Documentation
+
+Each effect is un-muted by activating the top button in the channel strip.
+
+
+| No. | FX      | Slider | Knob | Latching Button | Momentary Button |
+|-----|---------|--------|------|-----------------|------------------|
+| 1   | Delay   | Gain Out | Del. Time | Mute | Test Tone 1 |
+| 2   | BP Filter | Centre Freq. | Q | Mute | Test Tone 2|
+| 3   | Stutter | Out Gain| In Gain | Mute | Record |
+| 4   |         | | | | |
+| 5   |         | | | | |
+| 6   | | | | | |
+| 7   | | | | | |
+| 8   | | | | | |
+| 9   | | | | | |
