@@ -16,9 +16,9 @@
 #X text 279 15 question of taste \, seperate feedback loops with individual
 stutters or single feed with seperate stutters? hmmmm;
 #X obj 316 98 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 0 1;
+-1 -1 100 1;
 #X obj 378 97 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 0 1;
+-1 -1 12700 1;
 #X obj 315 237 / 127;
 #X obj 315 261 line~ 5;
 #X obj 377 238 / 127;
