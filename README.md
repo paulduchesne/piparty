@@ -24,10 +24,10 @@ Each effect is un-muted by activating the top button in the channel strip.
 
 | No. | FX      | Slider | Knob | Latching Button | Momentary Button |
 |-----|---------|--------|------|-----------------|------------------|
-| 1   | Delay   | Gain Out | Del. Time | Mute | Test Tone 1 |
+| 1   | Delay   | Out Gain | Del. Time | Mute | Test Tone 1 |
 | 2   | BP Filter | Centre Freq. | Q | Mute | Test Tone 2|
 | 3   | Stutter | Out Gain| In Gain | Mute | Record |
-| 4   |         | | | | |
+| 4   | Freeze  | Out Gain | | Mute | |
 | 5   |         | | | | |
 | 6   | | | | | |
 | 7   | | | | | |
