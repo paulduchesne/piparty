@@ -1,9 +1,6 @@
-#N canvas 1 85 898 362 10;
-#X text 55 64 patch for auto switching on sound card \, loading...
-samples? who knows. maybe we don't need this.;
-#X text 317 152 comment;
-#X obj 460 63 loadbang;
-#X obj 460 85 delay 100;
-#X msg 460 107 \; pd dsp 1;
-#X connect 2 0 3 0;
-#X connect 3 0 4 0;
+#N canvas 81 97 898 362 10;
+#X obj 30 37 loadbang;
+#X obj 30 59 delay 100;
+#X msg 30 81 \; pd dsp 1;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
