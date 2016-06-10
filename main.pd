@@ -17,8 +17,11 @@
 #X obj 60 359 housekeeping;
 #X obj 46 136 fx-delay;
 #X obj 46 114 fx-filt;
+#X obj 215 115 fx-freeze;
 #X connect 0 0 14 0;
 #X connect 0 0 17 0;
+#X connect 0 0 18 0;
 #X connect 14 0 1 0;
 #X connect 16 0 1 0;
 #X connect 17 0 16 0;
+#X connect 18 0 1 0;
