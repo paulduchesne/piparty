@@ -1,4 +1,4 @@
-#N canvas 97 249 872 331 10;
+#N canvas 89 265 872 331 10;
 #X obj 34 288 housekeeping;
 #X obj 34 268 dac~ 1;
 #X obj 34 168 fx-stutter;
@@ -12,8 +12,8 @@
 #X obj 34 148 fx-filt;
 #X obj 419 140 fx-delay;
 #X obj 419 118 fx-filt;
-#X obj 588 119 fx-freeze;
 #X obj 509 119 fx-stutter;
+#X obj 588 119 fx-freeze;
 #X connect 2 0 3 0;
 #X connect 3 0 1 0;
 #X connect 4 0 9 0;
