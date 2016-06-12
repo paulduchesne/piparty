@@ -28,7 +28,7 @@ Each effect is un-muted by activating the top button in the channel strip.
 | 2   | BP Filter | Centre Freq. | Q | Mute | Test Tone 2|
 | 3   | Stutter | Out Gain| In Gain | Mute | Record |
 | 4   | Freeze  | Out Gain | | Mute | |
-| 5   |         | | | | |
+| 5   | Reverb  | Out Gain | Feedback | Mute | Record |
 | 6   | | | | | |
 | 7   | | | | | |
 | 8   | | | | | |
