@@ -1,4 +1,4 @@
-#N canvas 89 265 872 331 10;
+#N canvas 69 187 872 331 10;
 #X obj 34 288 housekeeping;
 #X obj 34 268 dac~ 1;
 #X obj 34 168 fx-stutter;
@@ -15,8 +15,8 @@
 #X obj 509 119 fx-stutter;
 #X obj 588 119 fx-freeze;
 #X obj 34 210 fx-infreverb;
-#N canvas 0 22 450 300 testingtime 0;
-#N canvas 0 22 539 448 tests 0;
+#N canvas 0 50 450 300 testingtime 0;
+#N canvas 0 50 539 448 tests 0;
 #X obj 67 33 inlet;
 #X obj 309 189 inlet;
 #X obj 235 207 line~;
@@ -93,6 +93,7 @@
 #X connect 5 0 0 0;
 #X connect 7 0 0 2;
 #X restore 226 28 pd testingtime;
+#X obj 34 237 fx-mastervol;
 #X connect 2 0 3 0;
 #X connect 3 0 15 0;
 #X connect 4 0 9 0;
@@ -105,4 +106,5 @@
 #X connect 12 0 11 0;
 #X connect 13 0 6 0;
 #X connect 14 0 6 0;
-#X connect 15 0 1 0;
+#X connect 15 0 17 0;
+#X connect 17 0 1 0;
