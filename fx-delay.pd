@@ -1,22 +1,22 @@
-#N canvas 79 180 593 495 10;
-#X obj 29 20 inlet~;
+#N canvas 77 184 593 495 10;
+#X obj 205 34 inlet~;
 #X obj 39 130 ctlin 10;
 #X obj 269 130 ctlin 1;
 #X obj 39 170 / 127;
-#X obj 39 240 line~ 5;
+#X obj 38 240 line~ 5;
 #X obj 269 170 / 127;
 #X obj 269 190 * 2000;
 #X obj 269 210 + 100;
 #X obj 269 280 s \$0-deltime;
-#X obj 29 70 r \$0-deltime;
+#X obj 29 45 r \$0-deltime;
 #X text 179 149 vol out;
 #X text 413 150 del time;
-#X obj 29 40 delwrite~ \$0-maindel 2100;
+#X obj 205 54 delwrite~ \$0-maindel 2100;
 #X obj 28 110 vd~ \$0-maindel 500;
 #X obj 29 90 line~ 5;
 #X obj 38 290 notein 1;
 #X obj 38 310 pack 0 0;
-#X obj 38 350 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 38 350 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 118 350 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
@@ -51,9 +51,10 @@
 #X obj 118 310 loadbang;
 #X msg 118 330 0;
 #X obj 42 151 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 12700 1;
+-1 -1 0 1;
 #X obj 272 151 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
 -1 -1 0 1;
+#X msg 29 68 \$1 5;
 #X connect 0 0 12 0;
 #X connect 1 0 31 0;
 #X connect 2 0 32 0;
@@ -62,7 +63,7 @@
 #X connect 5 0 6 0;
 #X connect 6 0 7 0;
 #X connect 7 0 8 0;
-#X connect 9 0 14 0;
+#X connect 9 0 33 0;
 #X connect 13 0 21 0;
 #X connect 14 0 13 0;
 #X connect 15 0 16 0;
@@ -85,3 +86,4 @@
 #X connect 30 0 18 0;
 #X connect 31 0 3 0;
 #X connect 32 0 5 0;
+#X connect 33 0 14 0;
