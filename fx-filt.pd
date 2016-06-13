@@ -1,4 +1,4 @@
-#N canvas 83 198 813 458 10;
+#N canvas 81 202 813 458 10;
 #X obj 40 32 inlet~;
 #X obj 40 413 outlet~;
 #X obj 90 112 mtof;
@@ -15,30 +15,32 @@
 #X text 456 52 filt q;
 #X obj 100 193 notein 1;
 #X obj 100 213 pack 0 0;
-#X obj 100 253 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 100 253 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 220 253 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 100 233 route 1 10;
 #X obj 100 313 line~ 5;
-#N canvas 1 101 450 300 test2 0;
-#X obj 106 108 inlet;
+#N canvas 1 105 450 300 test2 0;
+#X obj 106 75 inlet;
 #X obj 97 223 outlet~;
 #X obj 197 171 *~ 0.7;
 #X obj 198 149 osc~ 550;
 #X obj 199 124 +~ 660;
 #X obj 201 99 *~ 120;
 #X obj 200 72 osc~ 75;
-#X obj 107 132 line~ 15;
 #X obj 197 191 *~;
-#X connect 0 0 7 0;
-#X connect 2 0 8 0;
+#X msg 106 97 \$1 15;
+#X obj 107 132 line~;
+#X connect 0 0 8 0;
+#X connect 2 0 7 0;
 #X connect 3 0 2 0;
 #X connect 4 0 3 0;
 #X connect 5 0 4 0;
 #X connect 6 0 5 0;
-#X connect 7 0 8 1;
-#X connect 8 0 1 0;
+#X connect 7 0 1 0;
+#X connect 8 0 9 0;
+#X connect 9 0 7 1;
 #X restore 220 343 pd test2;
 #X obj 220 193 loadbang;
 #X msg 220 233 0;
