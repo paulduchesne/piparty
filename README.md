@@ -6,6 +6,8 @@ Tested on a Raspberry Pi 4B + PiSound.
 
 **Install**
 
+Flash SD card with default Raspberry Pi OS.
+
 TigerVNC can be used to screenshare with the Pi.
 
 ```sh
