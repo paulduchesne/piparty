@@ -27,9 +27,9 @@ Note that `tigervncserver` needs to be run every time after boot to allow screen
 
 Raspberry Pi can be reach from client machine pointed at `raspberry-pi-ip:5901`.
 
-**PureData**
+**Pure Data**
 
-Install PureData with
+Install Pure Data with
 
 ```sh
 sudo apt-get update
