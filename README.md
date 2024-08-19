@@ -4,7 +4,7 @@ PureData improv patch for Raspberry Pi.
 
 Tested on a Raspberry Pi 4B + PiSound.
 
-**Install**
+**TigerVNC**
 
 Flash SD card with default Raspberry Pi OS.
 
@@ -24,6 +24,10 @@ tigervncserver
 ```
 
 Note that `tigervncserver` needs to be run every time after boot to allow screenshare.
+
+Raspberry Pi can be reach from client machine pointed at `raspberry-pi-ip:5901`.
+
+**PureData**
 
 Install PureData with
 
