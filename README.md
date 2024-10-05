@@ -1,6 +1,6 @@
 # PiParty
 
-PureData improv patch for Raspberry Pi.
+Pure Data improv patch for Raspberry Pi.
 
 Tested on a Raspberry Pi 4B + PiSound.
 
