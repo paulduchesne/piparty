@@ -36,3 +36,11 @@ sudo apt-get update
 sudo apt-get -y install git puredata
 pd -version
 ```
+
+**Controls**
+
+Buttons work in combination to momentarily or persistently enable each effect.
+
+| Numb | FX | Knob | Slider |
+| -- | -- | -- | -- |
+| 1 | Delay | Time | Gain |
